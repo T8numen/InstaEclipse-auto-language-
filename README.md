@@ -1,3 +1,33 @@
+## Auto-Language 版本说明（2026-02-28）
+
+本仓库是基于原项目的定制 Fork，重点是实现 **中英文自动切换**（含简体/繁体中文）。
+
+### 本版本特点
+- 根据系统语言自动切换界面文案：中文系统显示中文（简体/繁体按地区），非中文系统默认英文。
+- 将注入式对话框和 Toast 文案统一接入 i18n，减少硬编码英文文本。
+- 补充了配置导入/导出、状态提示等场景的中英文资源。
+- 已在 Android Studio 打包 debug APK 并验证可正常使用。
+
+### 改动者与当前版本
+- 改动者：**Codex（GPT-5）**
+- 当前版本标识：**auto-language**
+- README 说明更新日期：**2026-02-28**
+
+### 改动文件（自动语言切换相关）
+- `app/src/main/java/ps/reso/instaeclipse/utils/i18n/I18n.java` (new)
+- `app/src/main/java/ps/reso/instaeclipse/utils/dialog/DialogUtils.java`
+- `app/src/main/java/ps/reso/instaeclipse/mods/ui/UIHookManager.java`
+- `app/src/main/java/ps/reso/instaeclipse/utils/ghost/GhostModeUtils.java`
+- `app/src/main/java/ps/reso/instaeclipse/mods/devops/config/ConfigManager.java`
+- `app/src/main/java/ps/reso/instaeclipse/mods/devops/config/JsonExportActivity.java`
+- `app/src/main/java/ps/reso/instaeclipse/mods/devops/config/JsonImportActivity.java`
+- `app/src/main/java/ps/reso/instaeclipse/utils/version/VersionCheckUtility.java`
+- `app/src/main/res/values/strings.xml`
+- `app/src/main/res/values-zh-rCN/strings.xml`
+- `app/src/main/res/values-zh-rTW/strings.xml`
+
+---
+
 <p align="center">
   <img src="https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png" alt="InstaEclipse Logo" width="200"/>
 </p>
