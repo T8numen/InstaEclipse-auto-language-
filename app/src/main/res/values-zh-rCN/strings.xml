@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  app wide  -->
+    <string name="app_name">InstaEclipse</string>
+    <string name="home">首页</string>
+    <string name="features">功能</string>
+    <string name="help">帮助</string>
+    <string name="instagram_version">版本</string>
+    <!--  home  -->
+    <string name="module_disabled">模块未启用。请启用它。</string>
+    <string name="module_status">模块状态：</string>
+    <string name="module_status_disabled">模块状态：已禁用</string>
+    <string name="request_enable_module">请在 Xposed 安装程序中启用该模块。</string>
+    <string name="module_status_enabled_no_root">模块状态： 已启用 (无 Root 权限)</string>
+    <string name="request_enable_root">需要 Root 权限才能自动重启。需要手动重启。</string>
+    <string name="module_status_enabled">模块状态：已启用</string>
+    <string name="module_active">模块已启用并正常工作。</string>
+    <string name="checking_instagram">正在检查 Instagram</string>
+    <string name="installed_instagram_version">Instagram 已安装</string>
+    <string name="not_installed_instagram">Instagram 未安装</string>
+    <string name="error_instagram">检查 Instagram 状态时发生错误</string>
+    <string name="launch_instagram">启动 Instagram</string>
+    <string name="download_apk">下载 APK</string>
+    <string name="how_to_use">如何使用</string>
+    <string name="usage_instructions">长按搜索图标</string>
+    <string name="contributors">贡献者</string>
+    <string name="special_thanks">特别感谢</string>
+    <!--  Don't translate!  -->
+    <string name="instagram_logo" translatable="false">Instagram Logo</string>
+    <string name="instagram_info" translatable="false">instagram_info</string>
+    <!--  help  -->
+    <string name="help_amp_troubleshooting">帮助和故障排除</string>
+    <string name="find_updates_and_documentation">查询更新和文档。</string>
+    <string name="go_to_github">前往 GitHub</string>
+    <string name="find_support">查询支持</string>
+    <string name="go_to_telegram">前往 Telegram</string>
+    <string name="instaeclipse_telegram_group" translatable="false">InstaEclipse Telegram Group</string>
+    <!--  Don't translate!  -->
+    <string name="instaeclipse_github" translatable="false">InstaEclipse GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="telegram">Telegram</string>
+    <!--  faq  -->
+    <string name="frequently_asked_questions">常见问题</string>
+    <string name="faq_1">
+<b>1. 使用 Google Play 版本时无法正常运行或崩溃？</b>
+\n- 请使用 APKMirror 下载的版本。
+</string>
+    <string name="faq_2">
+<b>2. 模块未启用？</b>
+\n- 在 LSPosed 中禁用并重新启用该模块。
+</string>
+    <string name="faq_3">
+<b>3. 功能无法使用？</b>
+\n- 强制停止并重新启动 Instagram。
+</string>
+    <string name="faq_4">
+<b>4. 开发者选项导致崩溃？</b>
+\n- 按照开发者选项指南操作。
+</string>
+    <string name="faq_5">
+<b>5. 开发者选项的标签或数字异常</b>
+\n- 使用 Beta 或 Alpha 版本，因为稳定版有进行过混淆。
+</string>
+    <string name="faq_6">
+<b>6. 启用了无干扰模式，但内容仍然显示？</b>
+\n- 强制停止 Instagram 并清除其缓存。
+</string>
+    <!--  guide  -->
+    <string name="module_not_working_title">模块仍然无法使用？</string>
+    <string name="module_not_working_description" tools:ignore="MissingTranslation" translatable="false">
+<![CDATA[ 如果您已<b>获取 root 权限</b>，请尝试使用 <a href="https://github.com/JingMatrix/LSPosed/releases/latest">JingMatrix\'s LSPosed</a><br/><br/>。如果您未<b>获取 root 权限</b>，请安装<a href="https://github.com/JingMatrix/LSPatch/releases/latest">JingMatrix\'s LSPatch</a>，然后依据<a href="https://t.me/instaEclipse_discussion/158/5149">指南</a>进行操作 ]]>
+</string>
+    <!--  features  -->
+    <string name="developer_options">开发者选项</string>
+    <string name="ghost_mode">幽灵模式</string>
+    <string name="distraction_free">无干扰模式</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="remove_analytics">移除分析</string>
+    <string name="enable_disable_all">启用/禁用所有</string>
+    <!--  Don't translate!  -->
+    <string name="hint" translatable="false">Hint</string>
+    <!--  ghost  -->
+    <string name="ghost_mode_options">幽灵模式选项</string>
+    <string name="typing">隐藏输入状态</string>
+    <string name="story">限时动态</string>
+    <string name="view_once">查看一次</string>
+    <string name="live">直播</string>
+    <string name="direct_messages">私信</string>
+    <string name="disable_typing">停用输入状态提示</string>
+    <string name="screen_shot">截图</string>
+    <!--  developer_options  -->
+    <string name="developer_options_guide">开发者选项指南</string>
+    <string name="dev_options_version_req">仅能在 Beta/Alpha 中启用！</string>
+    <string name="dev_options_req">请确保您已登录！</string>
+    <string name="dev_options_1">1. 开启 Instagram，并长按主页按钮。</string>
+    <string name="dev_options_2">2. 导航至开发者选项 > MetaConfig 设定与覆盖。</string>
+    <string name="dev_options_3">3. 搜索「Employee」并启用以下选项：</string>
+    <string name="dev_options_4">4. 最后，从模块中禁用开发者选项以防止应用崩溃。</string>
+    <!--  Don't translate!  -->
+    <string name="is_employee" translatable="false">• is employee</string>
+    <string name="is_employee_or_test_user" translatable="false">• is employee or test user</string>
+    <string name="employee_options" translatable="false">• employee options</string>
+    <!--  distraction free  -->
+    <string name="distraction_free_options">无干扰模式选项</string>
+    <string name="disable_stories">关闭限时动态</string>
+    <string name="disable_feed">关闭动态</string>
+    <string name="disable_reels">关闭连续短片</string>
+    <string name="disable_explore">禁用探索</string>
+    <string name="disable_comments">禁用评论</string>
+    <!--  Miscellaneous  -->
+    <string name="misc">杂项</string>
+    <string name="miscellaneous_options">杂项选项</string>
+    <string name="story_flipping">禁用限时动态翻页</string>
+    <string name="video_autoplay">禁用视频自动播放</string>
+    <string name="follower_toast">显示关注者提示</string>
+    <string name="hooked_methods_toast">显示已启用功能提示</string>
+
+    <!-- 注入弹窗与提示（宿主进程） -->
+    <string name="ig_dialog_title">InstaEclipse 🌘</string>
+    <string name="ig_dialog_menu_dev_options">🎛 开发者选项</string>
+    <string name="ig_dialog_menu_ghost_settings">👻 幽灵模式设置</string>
+    <string name="ig_dialog_menu_ad_analytics_block">🛡 广告/分析拦截</string>
+    <string name="ig_dialog_menu_distraction_free">🧘 无干扰 Instagram</string>
+    <string name="ig_dialog_menu_misc_features">⚙ 杂项功能</string>
+    <string name="ig_dialog_menu_about">ℹ️ 关于</string>
+    <string name="ig_dialog_menu_restart_app">🔁 重启应用</string>
+    <string name="ig_dialog_close">❌ 关闭</string>
+    <string name="ig_dialog_back">← 返回</string>
+    <string name="ig_dialog_section_dev_options">开发者选项 🎛</string>
+    <string name="ig_dialog_section_ghost_mode">幽灵模式 👻</string>
+    <string name="ig_dialog_section_ad_analytics">广告/分析拦截 🛡️</string>
+    <string name="ig_dialog_section_distraction_free">无干扰 Instagram 🧘</string>
+    <string name="ig_dialog_section_misc">杂项 ⚙️</string>
+    <string name="ig_dialog_section_about">关于</string>
+    <string name="ig_dialog_section_restart">重启应用</string>
+    <string name="ig_dialog_section_quick_toggle">自定义快速开关 🛠️</string>
+    <string name="ig_dialog_enable_disable_all">启用/禁用所有</string>
+    <string name="ig_dialog_dev_enable">启用开发者模式</string>
+    <string name="ig_dialog_dev_import">📥 导入开发者配置</string>
+    <string name="ig_dialog_dev_export">📤 导出开发者配置</string>
+    <string name="ig_dialog_error">错误</string>
+    <string name="ig_dialog_unable_open_ui">无法打开 InstaEclipse 界面。</string>
+    <string name="ig_dialog_instagram_not_ready">Instagram 未打开或尚未准备就绪。</string>
+    <string name="ig_dialog_customize_quick_toggle">🛠 自定义快速开关</string>
+    <string name="ig_dialog_quick_include_hide_seen">包含：隐藏已读</string>
+    <string name="ig_dialog_quick_include_hide_typing">包含：隐藏输入状态</string>
+    <string name="ig_dialog_quick_include_disable_screenshot">包含：禁用截图检测</string>
+    <string name="ig_dialog_quick_include_hide_view_once">包含：隐藏查看一次</string>
+    <string name="ig_dialog_quick_include_hide_story_seen">包含：隐藏动态已读</string>
+    <string name="ig_dialog_quick_include_hide_live_seen">包含：隐藏直播已读</string>
+    <string name="ig_dialog_ghost_hide_seen">隐藏已读</string>
+    <string name="ig_dialog_ghost_hide_typing">隐藏输入状态</string>
+    <string name="ig_dialog_ghost_disable_screenshot">禁用截图检测</string>
+    <string name="ig_dialog_ghost_hide_view_once">隐藏查看一次</string>
+    <string name="ig_dialog_ghost_hide_story_seen">隐藏动态已读</string>
+    <string name="ig_dialog_ghost_hide_live_seen">隐藏直播已读</string>
+    <string name="ig_dialog_ad_block_ads">拦截广告</string>
+    <string name="ig_dialog_ad_block_analytics">拦截分析</string>
+    <string name="ig_dialog_ad_disable_tracking_links">禁用追踪链接</string>
+    <string name="ig_dialog_extreme_mode">极限模式 🔒（重新安装前不可撤销）</string>
+    <string name="ig_dialog_disable_reels_except_dm">禁用 Reels（私信除外）</string>
+    <string name="ig_dialog_extreme_confirm_title">启用极限模式？</string>
+    <string name="ig_dialog_extreme_confirm_message">启用后，在重新安装应用之前无法关闭无干扰模式。继续？</string>
+    <string name="ig_dialog_misc_disable_story_autoswipe">禁用动态自动翻页</string>
+    <string name="ig_dialog_misc_disable_video_autoplay">禁用视频自动播放</string>
+    <string name="ig_dialog_disable_repost">禁用转发</string>
+    <string name="ig_dialog_misc_show_follower_toast">显示关注提示</string>
+    <string name="ig_dialog_misc_show_feature_toasts">显示功能提示</string>
+    <string name="ig_dialog_created_by">作者：@reso7200</string>
+    <string name="ig_dialog_github_repo">🌐 GitHub 仓库</string>
+    <string name="ig_dialog_restart_message">⚠️ 清除应用缓存并重启？</string>
+    <string name="ig_dialog_restart_now">🔁 立即重启</string>
+    <string name="ig_dialog_restart_not_found">找不到要重启的应用。</string>
+    <string name="ig_dialog_restart_failed">重启失败：%1$s</string>
+    <string name="ig_toast_no_ghost_option_selected">❗ 未选择任何幽灵模式选项！</string>
+    <string name="ig_toast_ghost_enabled">👻 幽灵模式已启用</string>
+    <string name="ig_toast_ghost_disabled">❌ 幽灵模式已禁用</string>
+    <string name="ig_toast_message_marked_read">✅ 消息已标记为已读</string>
+    <string name="ig_toast_instaeclipse_loaded">InstaEclipse 已加载 🎯</string>
+
+    <!-- 更新检查 -->
+    <string name="ig_update_available">发现更新</string>
+    <string name="ig_update_message">发现新版本（%1$s）。现在更新吗？</string>
+    <string name="ig_update_action_update">更新</string>
+    <string name="ig_update_action_later">稍后</string>
+    <string name="ig_update_error_title">错误</string>
+    <string name="ig_update_error_message">检查更新失败，请稍后重试。</string>
+
+    <!-- 配置导入导出 -->
+    <string name="ig_config_importing">正在导入配置...</string>
+    <string name="ig_config_import_success">✅ 已导入到 mc_overrides.json</string>
+    <string name="ig_config_import_failed">❌ 导入配置失败</string>
+    <string name="ig_config_select_json">选择 JSON 配置</string>
+    <string name="ig_config_not_valid_json">❌ 不是有效的 JSON 文件</string>
+    <string name="ig_config_failed_read_file">❌ 读取文件失败：%1$s</string>
+    <string name="ig_config_cancelled_no_file">已取消或未选择文件</string>
+    <string name="ig_config_export_file_name" translatable="false">mc_overrides_exported.json</string>
+    <string name="ig_config_invalid_uri">❌ 无效的 URI</string>
+    <string name="ig_config_clipboard_empty">❌ 剪贴板为空。</string>
+    <string name="ig_config_clipboard_no_data">❌ 剪贴板没有数据。</string>
+    <string name="ig_config_clipboard_text_empty">❌ 剪贴板文本为空。</string>
+    <string name="ig_config_clipboard_invalid_json">❌ 剪贴板中不是有效 JSON。</string>
+    <string name="ig_config_export_success">✅ JSON 导出成功。</string>
+    <string name="ig_config_failed_save_file">❌ 保存文件失败：%1$s</string>
+
+    <!--  contributor card  -->
+    <string name="contributor_name">Contributor Name</string>
+</resources>

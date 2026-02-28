@@ -1,0 +1,210 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- app wide -->
+    <string name="app_name">InstaEclipse</string>
+    <string name="version" translatable="false">v0.4.5 Beta</string>
+    <string name="home">Home</string>
+    <string name="features">Features</string>
+    <string name="help">Help</string>
+    <string name="instagram_version">Version</string>
+
+    <!-- home -->
+    <string name="module_disabled">Module is not enabled. Please enable it.</string>
+
+    <string name="module_status">Module Status:</string>
+
+    <string name="module_status_disabled">Module Status: Disabled</string>
+    <string name="request_enable_module">Please enable the module in Xposed Installer.</string>
+
+    <string name="module_status_enabled_no_root">Module Status: Enabled (No Root Access)</string>
+    <string name="request_enable_root">Root access is required for auto-restart. Manual restart required.</string>
+
+    <string name="module_status_enabled">Module Status: Enabled</string>
+    <string name="module_active">The module is active and working.</string>
+
+    <string name="checking_instagram">Checking Instagram</string>
+    <string name="installed_instagram_version">Instagram is installed</string>
+    <string name="not_installed_instagram">Instagram is not installed</string>
+    <string name="error_instagram">Error checking Instagram status</string>
+
+    <string name="launch_instagram">Launch Instagram</string>
+    <string name="download_apk">Download APK</string>
+    <string name="how_to_use">How to use</string>
+    <string name="usage_instructions">Hold down the search icon</string>
+    <string name="contributors">Contributors</string>
+    <string name="special_thanks">Special Thanks</string>
+
+    <!-- Don't translate! -->
+    <string name="instagram_logo" translatable="false">Instagram Logo</string>
+    <string name="instagram_info" translatable="false">instagram_info</string>
+
+    <!-- help -->
+    <string name="help_amp_troubleshooting">Help &amp; Troubleshooting</string>
+    <string name="find_updates_and_documentation">Find updates and documentation.</string>
+    <string name="go_to_github">Go to GitHub</string>
+    <string name="find_support">Find support.</string>
+    <string name="go_to_telegram">Go to Telegram</string>
+    <string name="instaeclipse_telegram_group" translatable="false">InstaEclipse Telegram Group</string>
+
+    <!-- Don't translate! -->
+    <string name="instaeclipse_github" translatable="false">InstaEclipse GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="telegram">Telegram</string>
+
+    <!-- faq -->
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="faq_1"><b>1. Not working/crashes when using Google Play Version?</b>\n- Use APKMirror APKs</string>
+    <string name="faq_2"><b>2. Module not enabled?</b>\n- Disable and re-enable the module in LSPosed.</string>
+    <string name="faq_3"><b>3. Features not working?</b>\n- Force stop and restart Instagram.</string>
+    <string name="faq_4"><b>4. Developer options cause crashes?</b>\n- Follow the developer options guide.</string>
+    <string name="faq_5"><b>5. Developer options have weird labels or numbers?</b>\n- Use Beta or Alpha versions as Stable versions have obfuscation.</string>
+    <string name="faq_6"><b>6. Distraction Free enabled but content still appears?</b>\n- Force stop Instagram and clear its cache.</string>
+
+    <!-- guide -->
+    <string name="module_not_working_title">Module still isn\'t working?</string>
+    <string name="module_not_working_description" tools:ignore="MissingTranslation" translatable="false"><![CDATA[If you are <b>rooted</b> try using <a href="https://github.com/JingMatrix/LSPosed/releases/latest">JingMatrix\'s LSPosed</a><br/><br/>If you are <b>not rooted</b> install <a href="https://github.com/JingMatrix/LSPatch/releases/latest">JingMatrix\'s LSPatch</a> then follow <a href="https://t.me/instaEclipse_discussion/158/5149">this guide</a>]]></string>
+
+    <!-- features -->
+    <string name="developer_options">Developer Options</string>
+    <string name="ghost_mode">Ghost Mode</string>
+    <string name="distraction_free">Distraction Free</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="remove_analytics">Remove Analytics</string>
+
+    <string name="enable_disable_all">Enable/Disable All</string>
+
+    <!-- Don't translate! -->
+    <string name="hint" translatable="false">Hint</string>
+
+    <!-- ghost -->
+    <string name="ghost_mode_options">Ghost Mode Options</string>
+    <string name="typing">Typing</string>
+    <string name="story">Story</string>
+    <string name="view_once">View Once</string>
+    <string name="live">Live</string>
+    <string name="direct_messages">Direct Messages</string>
+    <string name="disable_typing">Typing</string>
+    <string name="screen_shot">Screenshot</string>
+
+    <!-- developer_options -->
+    <string name="developer_options_guide">Developer Options Guide</string>
+    <string name="dev_options_version_req">Use it on Beta/Alpha versions only!</string>
+    <string name="dev_options_req">Make sure you are signed in first!</string>
+
+    <string name="dev_options_1">1. Open Instagram and hold the Home button.</string>
+    <string name="dev_options_2">2. Navigate to Developer Options > MetaConfig Settings &amp; Overrides.</string>
+    <string name="dev_options_3">3. Search for \'Employee\' and enable the following options:</string>
+    <string name="dev_options_4">4. Finally, disable the Developer Options from the module to prevent app crashes.</string>
+
+    <!-- Don't translate! -->
+    <string name="is_employee" translatable="false">• is employee</string>
+    <string name="is_employee_or_test_user" translatable="false">• is employee or test user</string>
+    <string name="employee_options" translatable="false">• employee options</string>
+
+    <!-- distraction free -->
+    <string name="distraction_free_options">Distraction Free Options</string>
+    <string name="disable_stories">Disable Stories</string>
+    <string name="disable_feed">Disable Feed</string>
+    <string name="disable_reels">Disable Reels</string>
+    <string name="disable_explore">Disable Explore</string>
+    <string name="disable_comments">Disable Comments</string>
+
+    <!-- Miscellaneous -->
+    <string name="misc">Miscellaneous</string>
+    <string name="miscellaneous_options">Miscellaneous Options</string>
+    <string name="story_flipping">Disable Story Flipping</string>
+    <string name="video_autoplay">Disable Video Auto play</string>
+    <string name="follower_toast">Show Follower Toast</string>
+    <string name="hooked_methods_toast">Show Enabled Features Toast</string>
+
+    <!-- Injected dialog and toasts (host app process) -->
+    <string name="ig_dialog_title">InstaEclipse 🌘</string>
+    <string name="ig_dialog_menu_dev_options">🎛 Developer Options</string>
+    <string name="ig_dialog_menu_ghost_settings">👻 Ghost Mode Settings</string>
+    <string name="ig_dialog_menu_ad_analytics_block">🛡 Ad/Analytics Block</string>
+    <string name="ig_dialog_menu_distraction_free">🧘 Distraction-Free Instagram</string>
+    <string name="ig_dialog_menu_misc_features">⚙ Misc Features</string>
+    <string name="ig_dialog_menu_about">ℹ️ About</string>
+    <string name="ig_dialog_menu_restart_app">🔁 Restart App</string>
+    <string name="ig_dialog_close">❌ Close</string>
+    <string name="ig_dialog_back">← Back</string>
+    <string name="ig_dialog_section_dev_options">Developer Options 🎛</string>
+    <string name="ig_dialog_section_ghost_mode">Ghost Mode 👻</string>
+    <string name="ig_dialog_section_ad_analytics">Ad/Analytics Block 🛡️</string>
+    <string name="ig_dialog_section_distraction_free">Distraction-Free Instagram 🧘</string>
+    <string name="ig_dialog_section_misc">Miscellaneous ⚙️</string>
+    <string name="ig_dialog_section_about">About</string>
+    <string name="ig_dialog_section_restart">Restart App</string>
+    <string name="ig_dialog_section_quick_toggle">Customize Quick Toggle 🛠️</string>
+    <string name="ig_dialog_enable_disable_all">Enable/Disable All</string>
+    <string name="ig_dialog_dev_enable">Enable Developer Mode</string>
+    <string name="ig_dialog_dev_import">📥 Import Dev Config</string>
+    <string name="ig_dialog_dev_export">📤 Export Dev Config</string>
+    <string name="ig_dialog_error">Error</string>
+    <string name="ig_dialog_unable_open_ui">Unable to open InstaEclipse UI.</string>
+    <string name="ig_dialog_instagram_not_ready">Instagram is not open or ready.</string>
+    <string name="ig_dialog_customize_quick_toggle">🛠 Customize Quick Toggle</string>
+    <string name="ig_dialog_quick_include_hide_seen">Include Hide Seen</string>
+    <string name="ig_dialog_quick_include_hide_typing">Include Hide Typing</string>
+    <string name="ig_dialog_quick_include_disable_screenshot">Include Disable Screenshot Detection</string>
+    <string name="ig_dialog_quick_include_hide_view_once">Include Hide View Once</string>
+    <string name="ig_dialog_quick_include_hide_story_seen">Include Hide Story Seen</string>
+    <string name="ig_dialog_quick_include_hide_live_seen">Include Hide Live Seen</string>
+    <string name="ig_dialog_ghost_hide_seen">Hide Seen</string>
+    <string name="ig_dialog_ghost_hide_typing">Hide Typing</string>
+    <string name="ig_dialog_ghost_disable_screenshot">Disable Screenshot Detection</string>
+    <string name="ig_dialog_ghost_hide_view_once">Hide View Once</string>
+    <string name="ig_dialog_ghost_hide_story_seen">Hide Story Seen</string>
+    <string name="ig_dialog_ghost_hide_live_seen">Hide Live Seen</string>
+    <string name="ig_dialog_ad_block_ads">Block Ads</string>
+    <string name="ig_dialog_ad_block_analytics">Block Analytics</string>
+    <string name="ig_dialog_ad_disable_tracking_links">Disable Tracking Links</string>
+    <string name="ig_dialog_extreme_mode">Extreme Mode 🔒 (Irreversible until reinstall)</string>
+    <string name="ig_dialog_disable_reels_except_dm">Disable Reels Except in DMs</string>
+    <string name="ig_dialog_extreme_confirm_title">Activate Extreme Mode?</string>
+    <string name="ig_dialog_extreme_confirm_message">Once activated, you cannot disable Distraction-Free Mode until you reinstall the app. Continue?</string>
+    <string name="ig_dialog_misc_disable_story_autoswipe">Disable Story Auto-Swipe</string>
+    <string name="ig_dialog_misc_disable_video_autoplay">Disable Video Autoplay</string>
+    <string name="ig_dialog_disable_repost">Disable Repost</string>
+    <string name="ig_dialog_misc_show_follower_toast">Show Follower Toast</string>
+    <string name="ig_dialog_misc_show_feature_toasts">Show Feature Toasts</string>
+    <string name="ig_dialog_created_by">Created by @reso7200</string>
+    <string name="ig_dialog_github_repo">🌐 GitHub Repo</string>
+    <string name="ig_dialog_restart_message">⚠️ Clear app cache and restart?</string>
+    <string name="ig_dialog_restart_now">🔁 Restart Now</string>
+    <string name="ig_dialog_restart_not_found">Could not find the app to restart.</string>
+    <string name="ig_dialog_restart_failed">Restart failed: %1$s</string>
+    <string name="ig_toast_no_ghost_option_selected">❗ No Ghost Mode options selected!</string>
+    <string name="ig_toast_ghost_enabled">👻 Ghost Mode Enabled</string>
+    <string name="ig_toast_ghost_disabled">❌ Ghost Mode Disabled</string>
+    <string name="ig_toast_message_marked_read">✅ Message was marked as read</string>
+    <string name="ig_toast_instaeclipse_loaded">InstaEclipse Loaded 🎯</string>
+
+    <!-- Update check -->
+    <string name="ig_update_available">Update Available</string>
+    <string name="ig_update_message">A new version (%1$s) is available. Would you like to update now?</string>
+    <string name="ig_update_action_update">Update</string>
+    <string name="ig_update_action_later">Later</string>
+    <string name="ig_update_error_title">Error</string>
+    <string name="ig_update_error_message">Failed to check for updates. Please try again later.</string>
+
+    <!-- Config import/export -->
+    <string name="ig_config_importing">Importing config...</string>
+    <string name="ig_config_import_success">✅ Imported into mc_overrides.json</string>
+    <string name="ig_config_import_failed">❌ Failed to import config</string>
+    <string name="ig_config_select_json">Select JSON Config</string>
+    <string name="ig_config_not_valid_json">❌ Not a valid JSON file</string>
+    <string name="ig_config_failed_read_file">❌ Failed to read file: %1$s</string>
+    <string name="ig_config_cancelled_no_file">Cancelled or no file selected</string>
+    <string name="ig_config_export_file_name" translatable="false">mc_overrides_exported.json</string>
+    <string name="ig_config_invalid_uri">❌ Invalid URI</string>
+    <string name="ig_config_clipboard_empty">❌ Clipboard is empty.</string>
+    <string name="ig_config_clipboard_no_data">❌ Clipboard has no data.</string>
+    <string name="ig_config_clipboard_text_empty">❌ Clipboard text is empty.</string>
+    <string name="ig_config_clipboard_invalid_json">❌ Clipboard does not contain valid JSON.</string>
+    <string name="ig_config_export_success">✅ JSON exported successfully.</string>
+    <string name="ig_config_failed_save_file">❌ Failed to save file: %1$s</string>
+
+    <!-- contributor card -->
+    <string name="contributor_name">Contributor Name</string>
+
+</resources>
